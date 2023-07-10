@@ -1,0 +1,9 @@
+name: Run Shell Commands
+on: [push]
+
+jobs:
+  run-shell-command:
+  run on: ubuntu-latest
+  steps:
+    - name: Echo a String
+      run: echo "yoyoyo bitch"
