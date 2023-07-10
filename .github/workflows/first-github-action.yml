@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   run-shell-command:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Echo a String
-      run: echo "yoyoyo bitch"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "yoyoyo bitch"
